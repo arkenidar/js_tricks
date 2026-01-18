@@ -4,6 +4,8 @@
 // Posted by Campbeln, modified by community. See post 'Timeline' for change history
 // Retrieved 2026-01-17, License - CC BY-SA 4.0
 
+// See evalInScope.py for the Python equivalent implementation
+
 function evalInScope(js, contextAsScope) {
     //# Return the results of the in-line anonymous function we .call with the passed context
     ///return function () { with (this) { return eval(js); }; }.call(contextAsScope);
